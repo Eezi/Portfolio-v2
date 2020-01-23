@@ -263,7 +263,7 @@ footer p {
     .logott {
         padding: 0;
         width: 100%;
-        padding-left: 30px;
+        padding-left: 10px;
     }
     .logott img {
         width: 60px;
@@ -278,6 +278,11 @@ footer p {
         padding-top: 10px;
         font-size: 1.3rem;
     }
+    .kuvat img {
+        margin: auto;
+        width: 80%;
+    }
+  
     
    
 }
