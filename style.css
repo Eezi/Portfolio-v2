@@ -14,7 +14,7 @@ html {
 #section1 {
     width: 100%;
     height: 1150px;
-    background: url(vuoret.jpg);
+    background: url(mount.jpg);
     background-size: cover;
     background-position: center;
     grid-template-areas: 'showcase';
@@ -29,7 +29,7 @@ html {
     
 }
 h1 {
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -43,9 +43,7 @@ ul {
     
 }
 img {
-    
     background:  black;
-    
     text-decoration: none;
     display: block;
 }
@@ -53,10 +51,10 @@ img {
 .navi a { 
     border: 1px solid black;
     font-size: 20px;
-    color: black;
+    color: #fff;
     padding: 0.8rem;
     text-decoration: none;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     display: block;
     box-shadow: 0 15px 15px rgba(61, 61, 61, 0.8);
@@ -74,7 +72,8 @@ img {
     
     width: 100%;
     height: 1150px;
-    background: linear-gradient(to right, #2980B9, #6DD5FA);
+    background: linear-gradient(to right, #304352, #d7d2cc);
+    /*background: linear-gradient(to right, #2980B9, #6DD5FA);*/
 } 
 #section2 img {
     margin: auto;
@@ -84,7 +83,7 @@ img {
 .me {
     line-height: 1.3;
     padding-top: 40%;
-    color: black;
+    color: #111;
     padding: 100px;
     text-align: center;  
 }
@@ -108,7 +107,7 @@ img {
     color: black;
     font-size: 2rem;
     text-align: center;
-    padding-top: 25%;  
+    padding-top: 18%;  
     transition: all 1s ease-out; 
 }
 .teksti h1 {
@@ -124,12 +123,12 @@ img {
     justify-content: center;
 }
 p {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 .iconit {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', sans-serif;
     color: black;
     font-size:  50px;
 }
@@ -164,10 +163,11 @@ button a {
     
 }
 #section3 {
-    
+    color: #111;
     width: 100%;
     height: 1100px;
-    background: linear-gradient(to right, #373B44, #4286f4);
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+    /*background: linear-gradient(to right, #373B44, #4286f4);*/
 }
 .kuvat img {
     width: 100%;
@@ -193,6 +193,7 @@ button a {
     padding-top: 5%;
 }
 .logott  {
+    margin-top: 2%;
     padding-bottom: 10%;
     padding-left: 40%;
     list-style: none;
@@ -201,7 +202,17 @@ button a {
     
 }
 .logott img {
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .4s ease-in-out; 
     background:none;
+}
+
+.logott img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+        
 }
 
 .project {
