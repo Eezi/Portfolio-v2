@@ -290,7 +290,10 @@ footer p {
     }
     html {
         scroll-behavior: smooth;
+        
     }
+   
+    
     .iconit {
         font-size: 25px;
         display: grid;
@@ -301,17 +304,30 @@ footer p {
     }
     
     .me {
-        
         padding: 5px;
     }
+    .me img {
+        margin: 5px;
+    }
     .me h1 {
+        font-size: 30px;
         padding-top: 36%;
+        
+    }
+    .me p {
+        font-size: 22px;
+    }
+    hr {
+        visibility: hidden;
+    }
+    .hrr {
+        visibility: hidden;
     }
     
     .logott {
         padding: 0;
         width: 100%;
-        padding-left: 10px;
+        margin-left: 25%;
     }
     .logott img {
         width: 60px;
