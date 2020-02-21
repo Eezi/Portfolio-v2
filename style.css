@@ -365,6 +365,9 @@ footer p {
         width: 80%;
         height: 140px;
     }
+    .project {
+        margin-top: 50px;
+    }
 } 
 @media(max-width: 325px) {
     
