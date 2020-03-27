@@ -84,7 +84,6 @@ hr {
 }
 
 #section2 {
-    
     width: 100%;
     height: 1150px;
     background: linear-gradient(#1d2e38, #fff);
@@ -98,8 +97,8 @@ hr {
 .me {
     display: block;
     line-height: 1.3;
-    padding-top: 40%;
     color: #222222;
+    padding-top: 40%;
     padding: 100px;
     text-align: center;  
 }
@@ -108,7 +107,7 @@ hr {
 }
 .me h1 {
     text-shadow: 2px 2px 2px rgba(5, 5, 5, 0.6);
-    padding-top: 5%;
+    padding-top: 1%;
     padding-bottom: 1%;
 }
 .me p {
@@ -130,7 +129,7 @@ hr {
     color: black;
     font-size: 2rem;
     text-align: center;
-    padding-top: 13%;  
+    padding-top: 140px;  
     transition: all 1s ease-out; 
 }
 .teksti h1 {
@@ -236,6 +235,7 @@ button a {
     padding-top: 5%;
 }
 .logott  {
+    align-items: center;
     margin-top: 2%;
     padding-bottom: 10%;
     padding-left: 40%;
@@ -274,8 +274,17 @@ footer p {
     padding: 30px;
 }
 
+@media(max-width: 1850px) {
+    hr {
+        visibility: hidden;
+    }
+    .hrr {
+        visibility: hidden;
+    }
+}
 
-@media(max-width: 500px) {
+
+@media(max-width: 650px) {
     .teksti {
         padding-top: 35%;
         font-size: 1.4rem;
@@ -343,9 +352,10 @@ footer p {
     }
     
     .logott {
+        align-items: center;
         padding: 0;
         width: 100%;
-        margin-left: 25%;
+        margin-left: 31%;
     }
     .logott img {
         width: 60px;
@@ -369,7 +379,7 @@ footer p {
         margin-top: 50px;
     }
 } 
-@media(max-width: 325px) {
+@media(min-width: 360px) {
     
    .otsikko {
        margin-top: 160px;
@@ -378,6 +388,7 @@ footer p {
        margin-top: 40px;
    }
 }
+
 .navbar {
     position: fixed;
 }
@@ -450,11 +461,11 @@ svg {
     width:100%;
   }
   
-  @media(max-width:568px){
+  @media(max-width:650px){
     .navbar-nav{display:none}
   }
   
-  @media(min-width:568px){
+  @media(min-width:650px){
     .open-slide{display:none}
   }
   
