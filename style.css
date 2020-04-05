@@ -220,14 +220,22 @@ button a {
 }
 .kuvat img:hover {
     border: 2px solid white;}
+
 .kuvat {
     padding-top: 5%;
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    
-    
+    grid-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));   
 }
+/*
+.kuvat {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 3rem;
+    margin: 20px;
+    font-size: 18px;
+    line-height: 150%;
+}*/
 
 #section3 h1 {
     color:#222222;
@@ -251,6 +259,7 @@ button a {
     -webkit-filter: grayscale(1); 
     -webkit-transition: all .4s ease-in-out; 
     background:none;
+    padding: 3px;
 }
 
 .logott img:hover{
@@ -284,7 +293,14 @@ footer p {
         visibility: hidden;
     }
 }
-
+@media(max-width: 1008px) {
+    .kuvat {
+        padding-top: 5%;
+        display: grid;
+        grid-gap: 2px;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));   
+    }
+}
 
 @media(max-width: 650px) {
     .teksti {
@@ -328,6 +344,7 @@ footer p {
     
     .me {
         padding: 40px;
+      
     }
     .me img {
         margin: 5px;
@@ -364,7 +381,7 @@ footer p {
         height: 60px;
     }
     .otsikko {
-        padding-top: 10%;
+        margin-top: 150px;
         font-size: 1.3rem;
         
     }
@@ -374,17 +391,18 @@ footer p {
     }
     .kuvat img {
         margin: auto;
-        width: 80%;
-        height: 140px;
+        width: 75%;
+        height: 130px;
     }
     .project {
         margin-top: 50px;
     }
+    
 } 
 @media(min-width: 360px) {
     
    .otsikko {
-       margin-top: 160px;
+       margin-top: 150px;
    }
    .project {
        margin-top: 40px;
