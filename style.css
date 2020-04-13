@@ -515,7 +515,6 @@ svg {
     float: left;
     width: 30.5%;
     
-    
   }
   
 
@@ -535,7 +534,7 @@ svg {
   }
   
  
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1250px) {
     .column {
       width: 50%;
     }
@@ -544,9 +543,11 @@ svg {
  
   @media screen and (max-width: 600px) {
     .column {
-      width: 100%;
+      width: 90%;
     }
   }
+ 
+
 .content .ohjje {
     
     top: 50%;
