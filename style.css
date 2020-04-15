@@ -530,13 +530,14 @@ svg {
     background: #f0f0f0;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
     padding: 5px;
-    height: 453px;
+    height: 470px;
   }
   
  
   @media screen and (max-width: 1250px) {
     .column {
       width: 50%;
+   
     }
   }
   
@@ -544,6 +545,9 @@ svg {
   @media screen and (max-width: 600px) {
     .column {
       width: 90%;
+    }
+    .content {
+        height: 520px;
     }
   }
  
@@ -560,4 +564,58 @@ svg {
 .ohjje h1 {      
     margin: 0;      
     color: black;
+}
+.p-kuvat {
+    height: 230px;
+    background: url(burger.jpg);
+    background-size: cover;
+   
+}
+.p-kuvat2 {
+    height: 255px;
+    background: url(hp-motors.jpg);
+    background-size: cover;
+}
+.p-kuvat3 {
+    height: 255px;
+    background: url(budjetti.jpg);
+    background-size: cover;
+}
+.p-kuvat4 {
+    height: 255px;
+    background: url(noppa.jpg);
+    background-size: cover;
+}
+.p-kuvat5 {
+    height: 255px;
+    background: url(laskin.jpg);
+    background-size: cover;
+}
+.visit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #1f6296;
+    border: solid #1f6296;
+    border-radius: 5%;
+    padding: 10px;
+    width: 150px;
+    top: 45%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    background-color: #fff;
+    opacity: 80%;
+    
+}
+.visit a {
+    text-decoration: none;
+    color: inherit;
+    padding: 15px;
+}
+.visit:hover {
+    background-color: #1f6296;
+    color: #fff;
+    cursor: pointer;
+    transition: ease-in .2s;
 }
