@@ -575,6 +575,11 @@ svg {
     background-size: cover;
    
 }
+.p-kuvat1 {
+    height: 255px;
+    background: url(corona.jpg);
+    background-size: cover;
+}
 .p-kuvat2 {
     height: 255px;
     background: url(hp-motors.jpg);
