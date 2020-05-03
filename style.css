@@ -186,6 +186,26 @@ button a {
     color: #1f6296;
     
 }
+.btn {
+    background: none;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 3px;
+    color: #222222;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.btn:hover {
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    border: 1.5px solid #1f6296;
+    color: #1f6296;
+        
+}
 #section3 {
     
     color:#222222;
@@ -273,6 +293,13 @@ left: 50%;
     
         
 }
+.iso-content {
+    border-radius: 2%;
+    background: #f0f0f0;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    height: 480px;
+  }
 
 .project {
     text-align: center;
@@ -323,6 +350,13 @@ footer p {
         color: white;
     }
     */
+    .iso-content {
+        border-radius: 2%;
+        background: #f0f0f0;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+        padding: 5px;
+        height: 550px;
+      }
     .navi {
         display: none;
         /*position: fixed;*/
@@ -402,6 +436,7 @@ footer p {
     .project {
         margin-top: 50px;
     }
+  
     
 } 
 @media(min-width: 360px) {
@@ -520,7 +555,6 @@ svg {
     width: 30.5%;
     
   }
-  
 
   .row:after {
     content: "";
@@ -534,8 +568,9 @@ svg {
     background: #f0f0f0;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
     padding: 5px;
-    height: 470px;
+    height: 480px;
   }
+  
   
  
   @media screen and (max-width: 1250px) {
@@ -570,7 +605,7 @@ svg {
     color: black;
 }
 .p-kuvat {
-    height: 230px;
+    height: 255px;
     background: url(burger.jpg);
     background-size: cover;
    
@@ -579,6 +614,12 @@ svg {
     height: 255px;
     background: url(corona.jpg);
     background-size: cover;
+}
+.p-kuvatt {
+    height: 255px;
+    background: url(prob-1.png) no-repeat center;
+   
+    
 }
 .p-kuvat2 {
     height: 255px;
