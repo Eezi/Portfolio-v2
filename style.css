@@ -334,7 +334,7 @@ footer p {
     }
 }
 
-@media(max-width: 650px) {
+@media(max-width: 730px) {
     .teksti {
         padding-top: 35%;
         font-size: 1.4rem;
@@ -618,6 +618,7 @@ svg {
 .p-kuvatt {
     height: 255px;
     background: url(prob-1.png) no-repeat center;
+    min-width: 100%;
    
     
 }
@@ -630,11 +631,13 @@ svg {
     height: 255px;
     background: url(budjetti.jpg);
     background-size: cover;
+    min-width: 100%;
 }
 .p-kuvat4 {
     height: 255px;
     background: url(noppa.jpg);
     background-size: cover;
+    min-width: 100%;
 }
 .p-kuvat5 {
     height: 255px;
