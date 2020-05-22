@@ -102,13 +102,15 @@ hr {
     color: #222222;
     padding-top: 40%;
     padding: 100px;
-    text-align: center;  
+    text-align: center; 
+    transition: all 2s ease-out;  
 }
 .me img {
     margin-bottom: 2%;
 }
 .me h1 {
-    text-shadow: 2px 2px 2px rgba(5, 5, 5, 0.6);
+    /*text-shadow: 2px 2px 2px rgba(5, 5, 5, 0.6);*/
+    color: #111111;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -156,9 +158,10 @@ p {
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-size:  50px;
+    
+    
 }
 .iconit i {
-    
     padding: 30px;
 }
 
@@ -183,9 +186,12 @@ button a {
 .resume-btn:hover {
     transition: all 0.2s ease-out;
     cursor: pointer;
-    border: 1.5px solid #1f6296;
-    color: #1f6296;
+    border: 1.5px solid #77263a;
+    color: #77263a;
     
+}
+.resume-btn:visited {
+    color: #fff;
 }
 .btn {
     background: none;
@@ -203,8 +209,8 @@ button a {
 .btn:hover {
     transition: all 0.2s ease-out;
     cursor: pointer;
-    border: 1.5px solid #1f6296;
-    color: #1f6296;
+    border: 1.5px solid #77263a;
+    color: #77263a;
         
 }
 #section3 {
@@ -388,6 +394,8 @@ footer p {
     }
     .me img {
         margin: 5px;
+        width: 300px;
+       
     }
     .me h1 {
         font-size: 25px;
@@ -660,8 +668,8 @@ svg {
 .visit {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-    color: #1f6296;
-    border: solid #1f6296;
+    color: #77263a;
+    border: solid #77263a;
     border-radius: 5%;
     padding: 10px;
     width: 150px;
@@ -680,7 +688,7 @@ svg {
     padding: 15px;
 }
 .visit:hover {
-    background-color: #1f6296;
+    background-color: #77263a;
     color: #fff;
     cursor: pointer;
     transition: ease-in .2s;
