@@ -7,58 +7,63 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet/less" type="text/css" href="particles.less">
     <script src="https://kit.fontawesome.com/e54e07329c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Tomi Salo portfolio</title>
 </head>
 <body>
-    <nav class="navbar">
-        <span class="open-slide">
-          <a  onclick="openSlideMenu()">
-            <svg width="30" height="30">
-                <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
-                <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
-                <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
-            </svg>
-          </a>
-        </span>
-    </nav>
-    
-      <div id="side-menu" class="side-nav">
-        <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
-        <a href="#section1">HOME</a>
-        <a href="#section2">ABOUT</a>
-        <a href="#section3">EXPERIENCE</a>
-      </div>
+   
 <div class="etusivu" id="section1">
 
-    <nav class="navi">
-       
-        <ul>
-            <li class="one">
-                <a href="#section1">HOME</a>
-            </li>
-            <li class="two">
-                <a href="#section2">ABOUT</a>
-            </li>
-            <li class="three">
-                <a href="#section3">EXPERIENCE</a>
-            </li>
-            <hr />         
-        </ul>  
-        
-    </nav>
-        <div class="teksti">
-            <h1>Hi, I'm Tomi</h1>
-            <h3>Frontend Developer</h3>
-            <div class="social">
-                <a href="https://www.linkedin.com/in/tomi-salo-711324194/" target="_blank"><img style="margin: auto;" src="LinkedIn.png" height="50px" width="80px"></a>
-                <a href="https://github.com/Eezi" target="_blank"><img style="margin: auto;" src="githubb.png" height="50px" width="50px"></a>
-            </div>
-        </div>
-        
+   
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="#section1" class="nav-link">
+          <img src="browser.svg" >
+          <span class="link-text"> HOME</span>
+           
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#section2" class="nav-link">
+          <img src="information.svg" >
+          <span class="link-text">ABOUT</span>
+            
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#section3" class="nav-link">
+          <img src="project.svg" >
+          <span class="link-text">EXPERIENCE</span>
+          
+        </a>
+      </li>
+      <!--
+      <li class="nav-item">
+        <a href="#section1" class="nav-link">
+          <img src="moon.svg" >
+          <span >
+            
+          </span>
+        </a>
+      </li>-->
+    </ul>
+   </nav>
+  
 
+  <div class="teksti">
+      <img style="background: none; " src="tomivuori.png">
+           
+      <p>Frontend Developer</p>
+      <div class="social">
+          <a href="https://www.linkedin.com/in/tomi-salo-711324194/" target="_blank"><img style="margin: auto;" src="LinkedIn.png" height="50px" width="80px"></a>
+          <a href="https://github.com/Eezi" target="_blank"><img style="margin: auto;" src="githubb.png" height="50px" width="50px"></a>
+       </div>
+  </div>
     
 </div>
+
 <div id="section2">
         
         <div class="me">
@@ -66,7 +71,7 @@
             <img src="kukkatomi.jpeg"  width="400px" alt="">
             <p>Hey! My name is Tomi and I’m a web developer with a passion for frontend development. I’m currently a fourth year student at Metropolia University of Applied Sciences pursuing a degree in information and communications technology. I aspire towards a career that will allow me to channel my creativity through crafting fancy websites and engaging experiences.
             </p>
-            <div style="color: #77263a" class="iconit"><i class="fas fa-keyboard"><p style="font-weight: normal;">Web Developer</p>
+            <div style="color: rgba(11, 183, 252, 0.5)" class="iconit"><i class="fas fa-keyboard"><p style="font-weight: normal;">Web Developer</p>
 
             </i><i class="fas fa-cogs"><p style="font-weight: normal;">Engineering</p></i><i class="fas fa-mountain"><p style="font-weight: normal;">Climbing</p></i>
             </div> 
